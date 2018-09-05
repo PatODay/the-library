@@ -4,6 +4,8 @@
 gem 'dotenv-rails', groups: %i[:development :test]
 # Gem for active_model_serializer
 gem 'active_model_serializers', '~> 0.10.0'
+# Gem for testing with `assigns` & `assert_template`
+gem 'rails-controller-testing'
 
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
