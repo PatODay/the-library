@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :loans
   resources :borrowers
   resources :authors, except: %i[:new :edit]
   resources :books, except: %i[new edit]
