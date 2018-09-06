@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :borrowers
   resources :authors, except: %i[:new :edit]
   resources :books, except: %i[new edit]
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
