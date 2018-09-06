@@ -5,6 +5,6 @@ curl --include --request POST 'http://localhost:3000/books' \
 --data '{
   "book": {
     "title": "'"${TITLE}"'",
-    "author": "'"${AUTHOR}"'"
+    "author_id": "'"${AUTHID}"'"
   }
 }'

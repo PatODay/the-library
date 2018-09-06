@@ -5,6 +5,6 @@ curl --include --request PATCH "http://localhost:3000/books/${ID}" \
 --data '{
   "book": {
     "title": "'"${TITLE}"'",
-    "author": "'"${AUTHOR}"'"
+    "author_id": "'"${AUTHID}"'"
   }
 }'
